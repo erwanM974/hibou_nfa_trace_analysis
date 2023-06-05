@@ -1,0 +1,11 @@
+@explore_option{
+    loggers = [  tracegen[
+                    generation = modulo depth 250,
+                    partition=trivial,
+                    folder = tracegen_hr_explo
+                 ]
+              ];
+    strategy = HCS;
+    filters = [ max_depth = 5001, max_node_number = 10001 ];
+    priorities = [randomize = true]
+}
