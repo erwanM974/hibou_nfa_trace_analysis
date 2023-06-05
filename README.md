@@ -40,9 +40,9 @@ and the right column gives the NFA generated from it.
 
 | Usecase  | Interaction diagram  | Generated NFA  |
 |---|---|---|
-| ABP  | <img src="./README_images/int/abp.png">  | <img src="./README_images/nfa/abp.png">  |
-| Rovers  | <img src="./README_images/int/rover.png">  | <img src="./README_images/nfa/rover.png">  |
-| HR  | <img src="./README_images/int/hr.png">  | <img src="./README_images/nfa/hr.png">  |
+| ABP    | <img src="./README_images/int/abp.png">   | <img src="./README_images/nfa/abp.png">   |
+| Rovers | <img src="./README_images/int/rover.png"> | <img src="./README_images/nfa/rover.png"> |
+| HR     | <img src="./README_images/int/hr.png">    | <img src="./README_images/nfa/hr.png">    |
 
 
 ### Traces generation
@@ -99,11 +99,11 @@ and
 <span style="color:green">*green*</span> for <span style="color:green">nfa word analysis</span>.
 
 
-| Usecase  | Accepted traces  | Error traces  |
-|---|---|---|
-| ABP  | <img src="./README_images/plots/abp_log_acp.png">  | <img src="./README_images/plots/abp_log_err.png">  |
-| Rovers  | <img src="./README_images/plots/rover_log_acp.png">  | <img src="./README_images/plots/rover_log_err.png">  |
-| HR  | <img src="./README_images/int/plots/hr_log_acp.png">  | <img src="./README_images/plots/hr_log_err.png">  |
+| Usecase | Accepted traces  | Error traces  |
+|---------|-----------------------------------------------------|-----------------------------------------------------|
+| ABP     | <img src="./README_images/plots/abp_log_acp.png">   | <img src="./README_images/plots/abp_log_err.png">   |
+| Rovers  | <img src="./README_images/plots/rover_log_acp.png"> | <img src="./README_images/plots/rover_log_err.png"> |
+| HR      | <img src="./README_images/plots/hr_log_acp.png">    | <img src="./README_images/plots/hr_log_err.png">    |
 
 #### Interpretation of the results
 
